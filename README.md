@@ -2,15 +2,14 @@
 
 > Juego web indie minimalista de minería con historia, hecho en **JavaScript puro** (sin librerías ni motores) usando **Canvas 2D** y **Web Audio API**.
 
-🎮 **Jugar en línea:** https://TU-USUARIO.github.io/veta-sonora/
-📹 **Video explicativo del código:** _(pega aquí el enlace de YouTube / Drive)_
+🎮 **Jugar en línea:** https://Doggytrop.github.io/veta-sonora/
 
 | | |
 |---|---|
 | **Autor** | Luis Ángel Andrade Silva |
 | **Carrera** | Ingeniería en Desarrollo de Software Multiplataforma |
 | **Institución** | Universidad Tecnológica de Hermosillo (UT Hermosillo) |
-| **Materia / Docente** | _(completar)_ |
+| **Materia / Docente** |Creacion de videojuegos / Ivan Chenoweth|
 | **Fecha** | Noviembre 2026 |
 
 ---
@@ -222,10 +221,6 @@ El audio se activa con la primera tecla o toque (requisito de los navegadores).
 | 6 | Pruebas, balance, publicación en GitHub Pages y video |
 
 ---
-
-## 8. Ejecutar localmente
-Los ES Modules no funcionan abriendo el archivo con doble clic (`file://`); se necesita un servidor local:
-
 ```bash
 git clone https://github.com/TU-USUARIO/veta-sonora.git
 cd veta-sonora
@@ -233,29 +228,9 @@ python -m http.server 8000     # o: npx serve
 # abrir http://localhost:8000
 ```
 
-## 9. Publicación en GitHub Pages
-1. Subir los archivos a la rama `main` del repositorio (incluye `.nojekyll`).
-2. En GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch**.
-3. Elegir **Branch: `main`** y carpeta **`/ (root)`** → **Save**.
-4. En 1–2 minutos queda en `https://TU-USUARIO.github.io/veta-sonora/`.
 
----
 
-## 10. Guion del video explicativo (3–4 min)
 
-| Tiempo | Qué mostrar |
-|---|---|
-| 0:00–0:20 | Presentación y la historia (intro del juego en GitHub Pages) |
-| 0:20–0:55 | Jugar: excavar, caer, poner escaleras, dinamita, vender, tienda y abonar a la deuda |
-| 0:55–1:15 | `main.js`: bucle con paso fijo y entrada |
-| 1:15–1:40 | `game.js`: máquina de estados, gravedad y escaleras, derrumbes |
-| 1:40–2:00 | `world.js`: generación por zonas con semilla y `Uint8Array` |
-| 2:00–2:25 | `spatialGrid.js` + presionar **G** para mostrar las celdas en vivo |
-| 2:25–2:55 | `render.js`: back buffer, chunks, light buffer y bloom (presionar **B**) |
-| 2:55–3:15 | `audio.js`: un efecto y el secuenciador de música |
-| 3:15–3:30 | `save.js`, `particles.js` (pool) y cierre |
-
----
 
 ## 11. Licencia
 Código liberado bajo licencia **MIT** (ver `LICENSE`).
