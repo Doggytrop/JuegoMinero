@@ -2,7 +2,7 @@
 
 > Juego web indie minimalista de minería con historia, hecho en **JavaScript puro** (sin librerías ni motores) usando **Canvas 2D** y **Web Audio API**.
 
-🎮 **Jugar en línea:** https://Doggytrop.github.io/veta-sonora/
+🎮 **Jugar en línea:** (https://doggytrop.github.io/JuegoMinero/)
 
 | | |
 |---|---|
